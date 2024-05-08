@@ -21,8 +21,9 @@
   --brightness-wallpaper: #10101920;                                                              /* darker wallpaper */                           }}
   
 @media (prefers-color-scheme: light){ :root{
-  --lwt-main-image:  url("../images/newtab/wallpaper-light.png") !important;                      /* new-tab page image - white theme*/
-  --lwt-private-image:  url("../images/newtab/private-light.png") !important;                     /* new-tab private-page image - white theme*/ 
+  /* --lwt-main-image:  url("../images/newtab/wallpaper-light.png") !important;                      new-tab page image - white theme */
+  --lwt-private-image:  url("../images/newtab/private-light.png") !important;                     /* new-tab private-page image - white theme */
+  --lwt-main-image: url("../images/newtab/madvillainy.png") !important;                        /* new-tab private-page image - white theme  */
   --brightness-wallpaper: transparent;                                                            /* darker wallpaper */                           }}
 
 :root[privatebrowsingmode="temporary"]{ --general-color: var(--purple) !important; }              /* Accent color private mode */
@@ -36,8 +37,8 @@
 
   --my-vertical-toolbar-width: 52px ;                                                             /* Tamaño horizontal left-sidebar */
   
-  --left-color: #19abf4;                                                                      /* Color left wordmark */
-  --right-color: #8b61c3 ;                                                                        /* Color right wordmark */
+  --left-color: #36f419;                                                                      /* Color left wordmark */
+  --right-color: #c36161 ;                                                                        /* Color right wordmark */
   
   --logo-wordmark-visibility: 1 ;                                                                 /* :1 visible, :0 invisible ; Logo-wordmark*/
   --logo-wordmark-display: flex ;                                                                 /* :none ->eliminar , :flex ->Mostrar;  Logo-wordmark*/

@@ -178,10 +178,10 @@
     }}
 
 @media (prefers-color-scheme: dark){ 
-    :root[brighttext],
+    :root,
+    :root:is([brighttext]):-moz-lwtheme,
     :root[lwt-toolbar-field-focus-brighttext],
-    :root[lwtheme],
-    :root:not([lwtheme]){
+    :root:-moz-lwtheme{
     
   --toolbar-field-background-color: transparent !important;                                                      /* toolbar_field */
   --toolbar-field-border-color: transparent !important;                                                          /* toolbar_field_border */
@@ -202,10 +202,9 @@
     }}
   
 @media (prefers-color-scheme: light){
+    :root,
     :root:not([lwtheme-brighttext="true"]),
-    :root:not([lwt-toolbar-field-focus-brighttext]),
-    :root[lwtheme],
-    :root:not([lwtheme]){
+    :root:-moz-lwtheme{
 
   --toolbar-field-background-color: transparent !important;                                                      /* toolbar_field */
   --toolbar-field-border-color: transparent !important;                                                          /* toolbar_field_border */

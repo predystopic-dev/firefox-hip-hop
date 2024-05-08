@@ -99,7 +99,8 @@ body{
     }  
 
 .logo{
-    background: url("../images/foxlogo.svg") no-repeat !important;
+    /* background: url("../images/foxlogo.svg") no-repeat !important; */
+    background: url("../images/foxlogo_madvillain.svg") no-repeat !important;
     background-size: cover !important;
     height: 70px !important;
     width: 70px !important;
